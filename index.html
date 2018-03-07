@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>登录·企业知识库管理系统</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+</head>
+<body>
+		<canvas id="demo" width="400" height="300"></canvas>
+	<div id="login-page">
+	    <div class="col s12 z-depth-6 card-panel">
+	      <form class="login-form">
+	        <div class="row">
+	          <div class="input-field col s12 center">
+	            <p class="center login-form-text" style="font-size:24px">企业知识库管理系统</p>
+	          </div>
+	        </div>
+	        <div class="row margin">
+	          <div class="input-field col s12">
+	            <i class="mdi-social-person-outline prefix"></i>
+	            <input class="validate" id="email" type="email">
+	            <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
+	          </div>
+	        </div>
+	        <div class="row margin">
+	          <div class="input-field col s12">
+	            <i class="mdi-action-lock-outline prefix"></i>
+	            <input id="password" type="password">
+	            <label for="password">Password</label>
+	          </div>
+	        </div>
+	        <div class="row">          
+	          <div class="input-field col s12 m12 l12  login-text">
+	              <input type="checkbox" id="remember-me" />
+	              <label for="remember-me">记住我</label>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="input-field col s12">
+	            <a href="index.html" class="btn waves-effect waves-light col s12">登　录</a>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="input-field col s6 m6 l6">
+	            <p class="margin medium-small"><a href="register.html">现在注册!</a></p>
+	          </div>
+	          <div class="input-field col s6 m6 l6">
+	              <p class="margin right-align medium-small"><a href="forgot-password.html">忘记密码?</a></p>
+	          </div>          
+
+	      </form>
+	    </div>
+	  </div>
+	  </div>
+	
+	<script src="./js/jquery.min.js"></script>
+  	<!--materialize js-->
+		<script src="./js/materialize.min.js"></script>
+		<script src="./js/bubbly-bg.js"></script>
+		<link rel="stylesheet" href="./css/style.css">
+		<script>
+		bubbly({
+    canvas: document.querySelector("#demo"), // default is created and attached
+   });  
+		</script>
+</body>
+</html>

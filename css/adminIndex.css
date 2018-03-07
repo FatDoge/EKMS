@@ -1,0 +1,90 @@
+.layui-body{
+    background: #ededed;
+}
+.indexTitle{
+    padding: 20px;
+    font-size: 16px;
+    color: #8f9297;
+}
+.items-3{
+    height: 155px;
+    width:31.333%;
+    margin: 0 1%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    background:white;
+    padding: 20px 20px 0;
+}
+.items-12{
+    -webkit-box-shadow: 0 2px 4px rgba(205,220,231,.18);
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    min-height: 200px;
+    margin: 20px 1% 0;
+    width:98%;
+    padding: 20px 20px 0;
+}
+.items-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.1;
+}
+.items-area-6{
+    width:48%;
+    margin:0 1%;
+    float: left;
+    display: block;
+    height: 102px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #f2f2f2;
+    color: #8f9297;
+    transition: 0.2s ease-in-out;
+}
+.items-area-6:hover{
+    background: #d8d7d7;
+}
+.items-area-6-event{
+    line-height: 1.1;
+    margin-bottom: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.items-area-6-num{
+    font-size: 36px;
+}
+.todo-list{
+    padding-top:18px;
+    font-weight: lighter;
+}
+.todo-list ul{
+    margin:0;
+}
+.todo-list li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color:#a2a2a2;
+    white-space:nowrap;
+    overflow: hidden;
+text-overflow:ellipsis;
+border-bottom: 1px solid #8f9297;
+transition: 0.2s ease-in-out;
+padding: 0 20px;
+}
+.todo-list li:hover{
+    background: #d8d7d7;
+}
+.todo-list a{
+    color: #8f9297;
+    cursor: pointer;
+    text-decoration: none;
+}
+.todo-list-num{
+    display: inline-block;
+    width: 2.5em;
+    font-size: 18px;
+}

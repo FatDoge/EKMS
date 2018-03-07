@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>企业知识管理系统</title>
+  <link rel="stylesheet" href="./css/layui/css/layui.css">
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/examples.css" rel="stylesheet" type="text/css">
+        <script src="./js/jquery.min.js" type="text/javascript"></script>
+        <script src="./js/jquery.preloader.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href='./css/master.css' rel='stylesheet' type='text/css'>
+        <link href='https://app.statuscake.com/Workfloor/PublicReportCSS.php?PublicID=VeyMqM0dNM' rel='stylesheet' type='text/css'>
+        <script src="./js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./js/highstock_.js"></script>
+    <script src="./js/generatemap.js" type="text/javascript"></script>
+    <script src="./js/jquery-jvectormap-1.1.1.min.js" type="text/javascript"></script>
+    <script src="./js/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
+        <script src="./js/adminIndex.js"></script>
+        <link rel="stylesheet" href="./css/adminIndex.css">
+      </head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+  <div class="layui-header">
+    <a href="./adminIndex.html"><div class="layui-logo">企业知识管理系统</div></a>
+    <!-- 头部区域（可配合layui已有的水平导航） -->
+    <ul class="layui-nav layui-layout-left">
+      <li class="layui-nav-item"><a href="">控制台</a></li>
+      <li class="layui-nav-item"><a href="">商品管理</a></li>
+      <li class="layui-nav-item"><a href="">用户</a></li>
+      <li class="layui-nav-item">
+        <a href="javascript:;">其它系统</a>
+        <dl class="layui-nav-child">
+          <dd><a href="https://bbs.fatdoge.cn" target="_blank">知识论坛</a></dd>
+          <dd><a href="">消息管理</a></dd>
+          <dd><a href="">授权管理</a></dd>
+        </dl>
+      </li>
+    </ul>
+    <ul class="layui-nav layui-layout-right">
+      <li class="layui-nav-item">
+        <a href="javascript:;">
+          <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+          admin
+        </a>
+        <dl class="layui-nav-child">
+          <dd><a href="">基本资料</a></dd>
+          <dd><a href="">安全设置</a></dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item"><a href="./index.html">登出</a></li>
+    </ul>
+  </div>
+  
+  <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+      <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+      <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+        <li class="layui-nav-item">
+          <a class="" href="./adminJudge.html">知识审查</a>
+        </li>
+        <li class="layui-nav-item">
+          <a href="./adminTypes.html">知识分类</a>
+        </li>
+        <li class="layui-nav-item">
+          <a href="./adminPath.html">知识路径</a>
+        </li>
+        <li class="layui-nav-item">
+          <a href="./adminInfo.html">个人信息</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="layui-body">
+    <!-- 内容主体区域 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="indexTitle">欢迎,admin!</p>
+        </div>
+        <div class="col-xs-4 items-3">
+          <p class="items-title">
+            待审查知识
+          </p>
+          <a href="#"><div class="items-area-6">
+            <p class="items-area-6-event">
+              新增知识
+            </p>
+            <p class="items-area-6-num">
+              62
+            </p>
+          </div></a>
+          <a href="#"><div class="items-area-6">
+              <p class="items-area-6-event">
+                驳回知识
+              </p>
+              <p class="items-area-6-num">
+                23
+              </p>
+            </div></a>
+        </div>
+        <div class="col-xs-4 items-3">
+          <p class="items-title">
+            通知公告
+          </p>
+          <div class="todo-list">
+            <ul>
+              <li>
+                <a href="#">
+                  <span class="todo-list-num">0</span>
+                  <span> 待续费项（30 天内到期）</span>
+                </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <span class="todo-list-num">0</span>
+                    <span> 待续费项（30 天内到期）</span>
+                  </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <span class="todo-list-num">0</span>
+                      <span> 待续费项（30 天内到期）</span>
+                    </a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-4 items-3">
+          <p class="items-title">
+            签到打卡
+          </p>
+        </div>
+        <div class="col-xs-12 items-12">
+                <div class="Title"><h1><i class="fa fa-history"></i> 运行历史</div>
+                <div>
+                    <table id="MainData" class="table table-full table-striped">
+                        <thead>
+                        <tr>
+                            <th>服务</th>
+                            <th>名称</th>
+                            <th>延迟率</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+          </div>
+        <div class="col-xs-12 items-12">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="layui-footer">
+    <!-- 底部固定区域 -->
+    &copy;企业知识库管理系统
+  </div>
+</div>
+<script src="./css/layui/layui.js"></script>
+<script>
+//JavaScript代码区域
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+</body>
+</html>
+      
