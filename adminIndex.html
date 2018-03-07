@@ -132,6 +132,10 @@
           <p class="items-title">
             签到打卡
           </p>
+          <div style="width:100%;text-center:center">
+          <button class="indexBtn">打卡</button>
+          <p id="adminIndexDate"></p>
+        </div>
         </div>
         <div class="col-xs-12 items-12">
                 <div class="Title"><h1><i class="fa fa-history"></i> 运行历史</div>
@@ -168,6 +172,12 @@
 layui.use('element', function(){
   var element = layui.element;
 });
+</script>
+<script>
+  setInterval(function(){
+    var date=new Date().toLocaleString( );
+  $("#adminIndexDate").html(date);
+  },1000)
 </script>
 </body>
 </html>
