@@ -96,7 +96,7 @@ var Title = '知识库管理系统';
             $.getJSON('https://app.statuscake.com/Workfloor/PublicReportHandler.php?PublicID=' + PublicID + '&callback=?&TestID=' + TestID, function (data) {
                 $('#CurrentStatus').text(data.Status);
                 $('#TestName').text(data.SiteName);
-                document.title = 企业知识库管理系统;
+                document.title = "企业知识库管理系统";
                 var CheckMinutes = parseInt(data.CheckRate) / 60;
                 $('#CheckRate').text("每" + CheckMinutes + "分钟更新");
                 $('#TestType').text(data.TestType);
@@ -363,3 +363,10 @@ var Title = '知识库管理系统';
         }
 
         Runner();
+function signIn(){
+    console.log('signIn')
+    $("#indexBtn").attr("disabled","true");
+    $("#indexBtn").css({'pointer-events': 'none',
+        'cursor': 'not-allowed','background': '#5ebdb4'})
+    $("#indexBtn").html("已签到")
+}

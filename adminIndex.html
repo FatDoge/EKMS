@@ -133,7 +133,7 @@
             签到打卡
           </p>
           <div style="width:100%;text-center:center">
-          <button class="indexBtn">打卡</button>
+          <button id="indexBtn" onclick="signIn()" type="button">打卡</button>
           <p id="adminIndexDate"></p>
         </div>
         </div>
@@ -154,14 +154,15 @@
                     </table>
                 </div>
           </div>
-        <div class="col-xs-12 items-12">
+        <!-- <div class="col-xs-12 items-12"> -->
 
         </div>
+        <br>
       </div>
     </div>
   </div>
   
-  <div class="layui-footer">
+  <div class="layui-footer" style="z-index:999;">
     <!-- 底部固定区域 -->
     &copy;企业知识库管理系统
   </div>
