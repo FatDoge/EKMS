@@ -1,0 +1,26 @@
+#app li {
+    padding: 0.2em 0.5em;
+    border-left: 1px dashed #0caf9f;
+    margin-left: 2em;
+}
+#app li a{ 
+    width:20px;  
+    padding: 0 20px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    margin:40px auto;
+    transition:0.4s ease-in-out;
+}
+#app li a:hover{
+    background: #0caf9f
+}
+.tree {
+    background-color: #EFEFEF;
+}
