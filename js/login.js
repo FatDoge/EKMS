@@ -1,5 +1,5 @@
 //api url
-var url='http://192.168.43.198';
+var url='http://192.168.2.133';
 function login(){
     console.log('login...');
     var email=$("#email").val();
@@ -26,6 +26,7 @@ function loginCode(email,token){
             withCredentials: true
          },
          crossDomain: true,
+
      
         
     })
@@ -48,7 +49,6 @@ function ajaxLoginInfo(username,password){
             withCredentials: true
          },
          crossDomain: true,
-     
          
      
         
