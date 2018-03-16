@@ -1,0 +1,54 @@
+<html>
+<head>
+    <script src="./css/layui/layui.js"></script>
+</head>
+<body>
+<a href="#" class="IndexPage-newDiscussion" onclick="login()">submit</a>
+<script>
+    function login(){
+
+    layui.use('layer',function(){
+        var layer=layui.layer;
+        layer.msg('test')
+    })
+
+    }
+</script>
+<style>
+    .IndexPage-newDiscussion {
+        background: linear-gradient(124deg, #F44336, #E91E63, #9C27B0, #673AB7, #3F51B5, #2196F3, #03A9F4, #4CAF50, #FF9800);
+        color: #fff;
+        background-size: 1800% 1800%;
+        -webkit-animation: rainbow 15s ease infinite;
+        -z-animation: rainbow 15s ease infinite;
+        -o-animation: rainbow 15s ease infinite;
+        animation: rainbow 15s ease infinite;
+        border:none;
+        border-radius: 50px;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+
+    @-webkit-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-moz-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-o-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+</style>
+</body>
+</html>
