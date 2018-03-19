@@ -3,3 +3,114 @@
     padding: 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+.info-container{
+    height: 85%;
+    width: 90%;
+    background: none;
+    margin: auto;
+    text-align: center;
+    padding-top: 4%;
+}
+.info-background{
+    height: 100%;
+    width: 70%;
+    background:#607D8B;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.info-banner{
+    color: white;
+    font-size: 24px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 50px;
+    height: 50px;
+}
+.info-card{
+    background: white;
+    height: 70%;
+    width: 98%;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 70px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.info-operations{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    font-size: 20px;
+    text-align: right;
+    font-weight: lighter;
+}
+.info-operations a{
+    width: 90px;
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 5px;
+    height: 50px;
+    color: white;
+    transition: 0.3s ease-in-out
+}
+.info-operations a:hover{
+    background: white;
+    color: black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.info-card-logo{
+    border-radius: 50%;
+    width:4rem;
+    position: absolute;
+    left:25px; 
+    top: -20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.info-card-title{
+    text-align: left;
+    margin-left: 25px;
+    font-weight: lighter;
+    color: grey;
+    padding: 5px;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 17px;
+}
+.info-card-value{
+    text-align: left;
+    margin-left: 25px;
+    font-weight: lighter;
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    float: left;
+    border:none;
+    border-bottom: 1px solid grey;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+.info-card-value:hover{
+    border-bottom: 1px solid black;
+    color:#607D8B;
+}
+.info-card-item{
+    display: block;
+    width: 100%;
+}
+.info-card-right img{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+.info-card-right p{
+    position: absolute;
+    right: 20px;
+    top: 320px;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+    font-weight: lighter;
+    display: inline-block;
+    width: 200px;
+}

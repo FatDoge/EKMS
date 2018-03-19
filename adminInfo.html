@@ -62,9 +62,8 @@
   </div>
   
   <div class="layui-body">
-      <br>
     <!-- 内容主体区域 -->
-    <form class="layui-form" action="">
+    <!-- <form class="layui-form" action="">
             <div class="layui-form-item">
               <label class="layui-form-label">用户名</label>
               <div class="layui-input-inline">
@@ -91,8 +90,42 @@
                 <button type="reset" class="layui-btn layui-btn-primary">重置<tton>
               </div>
             </div>
-          </form>
-           
+          </form> -->
+           <div class="info-container">
+             <!-- 底层卡片 -->
+             <div class="info-background">
+               <!-- 底层标题 -->
+               <div class="info-banner">ACCOUNT&nbsp;SETTING</div>
+               <!-- 顶层信息设置卡片 -->
+               <div class="info-card">
+                 <!-- 头像 -->
+                 <img src="http://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" class="info-card-logo">
+                 <!-- 个人信息 -->
+                 
+                 <div class="info-card-item">
+                 <div class="info-card-title">USERNAME</div>
+                 <input type="text" value="admin" class="info-card-value">
+                </div>
+                <div class="info-card-item">
+                 <div class="info-card-title">EMAIL</div>
+                 <input type="text" value="704274491@qq.com" class="info-card-value">
+                </div>
+                <div class="info-card-item">
+                    <div class="info-card-title">SET PASSWORD</div>
+                    <input placeholder="PASSWORD" class="info-card-value" type="password">
+                   </div>
+               </div>
+               <div class="info-card-right">
+                 <img src="./images/infoLogo.png">
+                 <p>SYSTEM&nbsp;MASTER</p>
+               </div>
+               <!-- 底层保存操作选项 -->
+               <div class="info-operations">
+                 <a href="#">Cancel</a>
+                 <a href="#">Save</a>
+               </div>
+             </div>
+           </div>
           <script>
           //Demo
           layui.use('form', function(){
