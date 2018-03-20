@@ -80,7 +80,7 @@
                 ,cols: [[ //表头
                     {field: 'id', title: 'ID', width:'10%', sort: true,align:'center'}
                     ,{field: 'username', title: '用户名',  sort: true,width:'18%',align:'center'}
-                    ,{field: 'fileInfo', title: '文件信息', width:'20%', sort: true,align:'center'}
+                    ,{field: 'fileInfo', title: '文件信息', event: 'viewFile', style:'cursor: pointer;color:#009688',width:'20%', sort: true,align:'center'}
                     ,{field: 'fileType', title: '文件类型', width: '11%',align:'center'}
                     ,{field: 'fileDate', title: '上传时间', width:'15%',align:'center'}
                     ,{field: 'fileTag', title: '文档标签', width: '11%', sort: true,align:'center'}
@@ -105,6 +105,28 @@
 <script src="./js/adminJudge.js"></script>
 <link rel="stylesheet" href="./css/adminJudge.css">
 <script>
+    function view(obj){
+        const wordViewer='./web/fileView.html';
+        const pdfViewer='./web/viewer.html';
+        var temp;
+        switch (obj.data.fileTag){
+            case 'word':
+                temp=wordViewer;
+                break;
+            case 'pdf':
+                temp=pdfViewer;
+                break;
+            default:
+                return false;
+        }
+        var index = layer.open({
+            type: 2,
+            content: temp,
+
+            maxmin: false
+        });
+        layer.full(index);
+    }
 //JavaScript代码区域
 layui.use('element', function(){
   var element = layui.element;
@@ -122,6 +144,11 @@ layui.use('table', function(){
         obj.del();
         layer.close(index);
       });
+    }else if(obj.event==='viewFile'){
+        console.log(obj);
+        //弹出即全屏
+        view(obj);
+
     }
   });
   
