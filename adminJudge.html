@@ -108,6 +108,7 @@
     function view(obj){
         const wordViewer='./web/fileView.html';
         const pdfViewer='./web/viewer.html';
+        const excelViewer='./web/excelViewer.html';
         var temp;
         switch (obj.data.fileTag){
             case 'word':
@@ -116,13 +117,16 @@
             case 'pdf':
                 temp=pdfViewer;
                 break;
+            case 'excel':
+                temp=excelViewer;
+                break;
             default:
                 return false;
         }
         var index = layer.open({
             type: 2,
             content: temp,
-
+            title: '知识预览',
             maxmin: false
         });
         layer.full(index);
