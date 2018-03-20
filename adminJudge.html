@@ -109,6 +109,7 @@
         const wordViewer='./web/fileView.html';
         const pdfViewer='./web/viewer.html';
         const excelViewer='./web/excelViewer.html';
+        const pptViewer='./web/pptViewer.html';
         var temp;
         switch (obj.data.fileTag){
             case 'word':
@@ -119,6 +120,9 @@
                 break;
             case 'excel':
                 temp=excelViewer;
+                break;
+            case 'ppt':
+                temp=pptViewer;
                 break;
             default:
                 return false;

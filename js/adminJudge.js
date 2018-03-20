@@ -54,10 +54,10 @@ var data={
         {
             "id": 10004,
             "username": "user-4",
-            "fileInfo": "example.doc",
+            "fileInfo": "myfirst.ppt",
             "fileDate": "2018-03-19",
-            "fileType": "word文档",
-            "fileTag": 'word',
+            "fileType": "ppt文档",
+            "fileTag": 'ppt',
             "logins": 51,
             "wealth": 76263262,
             "classify": "作家",
