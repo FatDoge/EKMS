@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246ddf76-c56b-4ef7-ac3c-13c8c018815a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/adminJudge.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/adminJudge.html" afterPath="$PROJECT_DIR$/adminJudge.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +19,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="198">
               <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
             </state>
@@ -70,8 +68,8 @@
       <file leaf-file-name="adminTypes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminTypes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="97" column="62" lean-forward="true" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+            <state relative-caret-position="2134">
+              <caret line="97" column="62" lean-forward="false" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
               <folding>
                 <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
                 <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
@@ -81,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminJudge.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adminJudge.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adminJudge.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -91,10 +89,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="viewer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/viewer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="forgot-password.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forgot-password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -174,6 +182,11 @@
               <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="知识库管理系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,17 +212,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.adminJudge.html">
+  <component name="RunManager" selected="JavaScript Debug.viewer.html">
     <configuration name="adminJudge.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/adminJudge.html" />
     <configuration name="forgot-password.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/forgot-password.html" />
-    <list size="2">
+    <configuration name="viewer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/viewer.html" />
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.adminJudge.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.forgot-password.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.viewer.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.adminJudge.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.forgot-password.html" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.viewer.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.adminJudge.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.forgot-password.html" />
       </list>
     </recent_temporary>
   </component>
@@ -233,11 +249,12 @@
       <workItem from="1521197362056" duration="54000" />
       <workItem from="1521197428732" duration="4738000" />
       <workItem from="1521268060527" duration="4390000" />
+      <workItem from="1521536198958" duration="643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10395000" />
+    <option name="totallyTimeSpent" value="11038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -315,6 +332,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adminTypes.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="97" column="62" lean-forward="true" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+          <folding>
+            <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
+            <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
+            <marker date="1521199844973" expanded="true" signature="3284:3452" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forgot-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminJudge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/adminIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520582597877" expanded="true" signature="892:910" ph="..." />
+            <marker date="1520582597877" expanded="true" signature="2179:2203" ph="..." />
+            <marker date="1520582597877" expanded="true" signature="2311:2335" ph="..." />
+            <marker date="1520582597877" expanded="true" signature="2715:2750" ph="..." />
+            <marker date="1520582597877" expanded="true" signature="2765:2779" ph="..." />
+            <marker date="1520582597877" expanded="true" signature="2781:2789" ph="..." />
+            <marker date="1520582597877" expanded="true" signature="4186:4199" ph="..." />
+            <marker date="1520582597877" expanded="true" signature="4487:4500" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminTypes.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3190">
           <caret line="145" column="69" lean-forward="false" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
           <folding>
@@ -329,7 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="124" lean-forward="false" selection-start-line="18" selection-start-column="124" selection-end-line="18" selection-end-column="124" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -382,7 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="198">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
@@ -425,13 +510,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="18" column="124" lean-forward="false" selection-start-line="18" selection-start-column="124" selection-end-line="18" selection-end-column="124" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forgot-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -439,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adminTypes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="97" column="62" lean-forward="true" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+        <state relative-caret-position="2134">
+          <caret line="97" column="62" lean-forward="false" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
           <folding>
             <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
             <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
@@ -461,6 +545,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/viewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           <folding />
         </state>
       </provider>
