@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>musicViewer</title>
+    <link rel="stylesheet" href="../css/APlayer.min.css">
+</head>
+<body>
+    <div id="aplayer"></div>
+<script src="../js/APlayer.min.js"></script>
+<script>
+    const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    audio: [{
+        name: 'musicCase',
+        artist: 'admin',
+        url: './musicCase.mp3',
+        cover: './musicCase.jpg'
+    }]
+});
+</script>
+</body>
+</html>
