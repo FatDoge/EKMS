@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246ddf76-c56b-4ef7-ac3c-13c8c018815a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/adminJudge.html" afterPath="$PROJECT_DIR$/adminJudge.html" />
+      <change beforePath="$PROJECT_DIR$/adminTypes.html" afterPath="$PROJECT_DIR$/adminTypes.html" />
+      <change beforePath="$PROJECT_DIR$/css/adminTypes.css" afterPath="$PROJECT_DIR$/css/adminTypes.css" />
       <change beforePath="$PROJECT_DIR$/js/adminJudge.js" afterPath="$PROJECT_DIR$/js/adminJudge.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,87 +19,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adminTypes.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="adminTypes.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adminTypes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2134">
-              <caret line="97" column="62" lean-forward="false" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+            <state relative-caret-position="264">
+              <caret line="97" column="52" lean-forward="false" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
               <folding>
-                <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
-                <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
-                <marker date="1521199844973" expanded="true" signature="3284:3452" ph="..." />
+                <marker date="1521649493691" expanded="true" signature="3113:3602" ph="..." />
+                <marker date="1521649493691" expanded="true" signature="3186:3465" ph="..." />
+                <marker date="1521649493691" expanded="true" signature="3284:3445" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminJudge.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminJudge.html">
+      <file leaf-file-name="adminTypes.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/adminTypes.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="161" column="48" lean-forward="true" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videoViewer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/videoViewer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminJudge.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/adminJudge.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pdf.worker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/pdf.worker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/viewer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7810">
-              <caret line="355" column="35" lean-forward="false" selection-start-line="355" selection-start-column="35" selection-end-line="355" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/fileView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forgot-password.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forgot-password.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="404">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -120,13 +59,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/adminTypes.html" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/testLayer.html" />
         <option value="$PROJECT_DIR$/fileView.html" />
         <option value="$PROJECT_DIR$/web/videoViewer.html" />
-        <option value="$PROJECT_DIR$/adminJudge.html" />
         <option value="$PROJECT_DIR$/js/adminJudge.js" />
+        <option value="$PROJECT_DIR$/adminJudge.html" />
+        <option value="$PROJECT_DIR$/css/adminTypes.css" />
+        <option value="$PROJECT_DIR$/adminTypes.html" />
       </list>
     </option>
   </component>
@@ -166,22 +106,7 @@
             <path>
               <item name="知识库管理系统" type="b2602c69:ProjectViewProjectNode" />
               <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="知识库管理系统" type="b2602c69:ProjectViewProjectNode" />
-              <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="知识库管理系统" type="b2602c69:ProjectViewProjectNode" />
-              <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="知识库管理系统" type="b2602c69:ProjectViewProjectNode" />
-              <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,26 +140,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.videoViewer.html">
+  <component name="RunManager" selected="JavaScript Debug.adminTypes.html">
     <configuration name="adminJudge.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/adminJudge.html" />
+    <configuration name="adminTypes.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/adminTypes.html" />
     <configuration name="fileView.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/fileView.html" />
     <configuration name="videoViewer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/videoViewer.html" />
-    <configuration name="viewer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/viewer.html" />
     <configuration name="adminJudge.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="adminJudge.js" working-dir="$PROJECT_DIR$/js" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.adminJudge.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.viewer.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fileView.html" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.adminJudge.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.videoViewer.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.fileView.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.adminJudge.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.videoViewer.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.adminTypes.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.videoViewer.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.adminJudge.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.adminJudge.js" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.fileView.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.viewer.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.adminTypes.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.videoViewer.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.adminJudge.html" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.adminJudge.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.fileView.html" />
       </list>
     </recent_temporary>
   </component>
@@ -260,12 +185,12 @@
       <workItem from="1521268060527" duration="4390000" />
       <workItem from="1521536198958" duration="643000" />
       <workItem from="1521548363560" duration="7202000" />
-      <workItem from="1521640396199" duration="2834000" />
+      <workItem from="1521640396199" duration="5095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21074000" />
+    <option name="totallyTimeSpent" value="23335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -306,9 +231,9 @@
         <state relative-caret-position="2134">
           <caret line="97" column="62" lean-forward="false" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
           <folding>
-            <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3284:3452" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3113:3602" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3186:3465" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3284:3445" ph="..." />
           </folding>
         </state>
       </provider>
@@ -396,9 +321,9 @@
         <state relative-caret-position="2134">
           <caret line="97" column="62" lean-forward="false" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
           <folding>
-            <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3284:3452" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3113:3602" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3186:3465" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3284:3445" ph="..." />
           </folding>
         </state>
       </provider>
@@ -460,9 +385,9 @@
         <state relative-caret-position="2134">
           <caret line="97" column="62" lean-forward="true" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
           <folding>
-            <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3284:3452" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3113:3602" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3186:3465" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3284:3445" ph="..." />
           </folding>
         </state>
       </provider>
@@ -516,9 +441,9 @@
         <state relative-caret-position="3190">
           <caret line="145" column="69" lean-forward="false" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
           <folding>
-            <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3284:3452" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3113:3602" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3186:3465" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3284:3445" ph="..." />
           </folding>
         </state>
       </provider>
@@ -623,28 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminTypes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="97" column="62" lean-forward="false" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
-          <folding>
-            <marker date="1521199844973" expanded="true" signature="3113:3609" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3186:3472" ph="..." />
-            <marker date="1521199844973" expanded="true" signature="3284:3452" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/pdf.worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/viewer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7810">
@@ -678,19 +581,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminJudge.html">
+    <entry file="file://$PROJECT_DIR$/js/adminJudge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="161" column="48" lean-forward="true" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
+        <state relative-caret-position="374">
+          <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/adminJudge.js">
+    <entry file="file://$PROJECT_DIR$/adminJudge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="208">
+          <caret line="83" column="94" lean-forward="false" selection-start-line="83" selection-start-column="94" selection-end-line="83" selection-end-column="94" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/pdf.worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/adminTypes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminTypes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="97" column="52" lean-forward="false" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+          <folding>
+            <marker date="1521649493691" expanded="true" signature="3113:3602" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3186:3465" ph="..." />
+            <marker date="1521649493691" expanded="true" signature="3284:3445" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

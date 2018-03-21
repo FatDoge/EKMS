@@ -95,7 +95,7 @@
             <span @mouseenter="showOprators" @mouseleave="hideOprators">
                 <a @click="toggle">{{node.name}}</a>
                 <small v-if="show_oprators">
-                    <a @click="editNode" href="#">edit</a> | <a @click="removeNode" href="#">remove</a> | <a @click="addNode" href="#">add</a>
+                    <a @click="editNode" href="#">编辑</a> | <a @click="removeNode" href="#">删除</a> | <a @click="addNode" href="#">增加</a>
                 </small>
             </span>
             <ul v-show="node.children.length"><tree-node v-for="node in node.children" :node.sync="node"></tree-node></ul>
@@ -140,7 +140,6 @@
 
             addNode: function(){
                 var that=this;
-                // var name = prompt("输入新分类名称", "分类1");
                 layui.use('layer',function(){
                     var layer=layui.layer;
                     layer.prompt({title: '输入新分类名称',offset: ['40%','40%']}, function(name, index){
@@ -154,18 +153,35 @@
                 
             },
             removeNode: function(){
-                if (confirm('是否删除该分类及子分类:' + this.node.name)){
-                    var current_node = this.node;
-                    this.$parent.node.children = this.$parent.node.children.filter(function(node){
-                        return node !== current_node;
+                var that=this;
+                layui.use('layer',function(){
+                    var layer=layui.layer;
+                    layer.msg('确认删除该结点及子节点吗？', {
+                        time: 0 //不自动关闭
+                        ,btn: ['确定', '取消']
+                        ,area:['250px','']
+                        ,yes: function(index){
+                            layer.close(index);
+                            var current_node = that.node;
+                            that.$parent.node.children = that.$parent.node.children.filter(function(node){
+                                return node !== current_node;
+                            });
+                        }
                     });
-                }
+                })
             },
             editNode: function(){
-                var name = prompt("输入新名称:", this.node.name);
-                if (!!name && !!name.trim()){
-                    this.node.name = name.trim();
-                }
+                var that=this;
+                layui.use('layer',function(){
+                    var layer=layui.layer;
+                    layer.prompt({title: '编辑知识结点名称',offset: ['40%','40%'],value:that.node.name}, function(name, index){
+                        layer.close(index);
+                        console.log(name);
+                        if (!!name && !!name.trim()){
+                            that.node.name = name.trim();
+                        }
+                    });
+                })
             }
         }
     });

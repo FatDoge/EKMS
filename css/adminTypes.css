@@ -24,3 +24,6 @@
 .tree {
     background-color: #EFEFEF;
 }
+.layui-layer-btn {
+    text-align: center!important;
+}
