@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>企业知识库管理系统</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/search-form.css">
+</head>
+<body>
+        <nav>
+                <div class="nav-wrapper light-blue lighten-1">
+                  <a href="#" class="brand-logo">logo</a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">文档上传</a></li>
+                    <li><a href="#">知识路径</a></li>
+                    <li><a href="#" data-activates="slide-out" id="selfCard"><i class="material-icons">menu</i></a></li>
+                  </ul>
+                </div>
+              </nav>
+
+              <ul id="slide-out" class="side-nav">
+                    <li><div class="userView">
+                      <div class="background">
+                        <img src="images/office.jpg">
+                      </div>
+                      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+                      <a href="#!name"><span class="white-text name">王花花</span></a>
+                      <a href="#!email"><span class="white-text email">jdandturk@sina.com</span></a>
+                    </div></li>
+                    <li><a class="waves-effect" href="#!">我的文档</a></li>
+                    <li><a class="waves-effect" href="#!">我的订阅</a></li>
+                    <li><a class="waves-effect" href="#!">我的收藏</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="waves-effect" href="#!">账号设置</a></li>
+                  </ul>
+                  
+
+	<section class="htmleaf-container">
+		<form onsubmit="submitFn(this, event);">
+            <div class="search-wrapper">
+                <div class="input-holder">
+                    <input type="text" class="search-input" placeholder="Type to search" />
+                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+                </div>
+                <span class="close" onclick="searchToggle(this, event);"></span>
+                <div class="result-container">
+
+                </div>
+            </div>
+        </form>
+	</section>
+    
+    <!-- <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">页脚内容</h5>
+                  <p class="grey-text text-lighten-4">你可以用行和列来组织你的页脚内容。</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">链接</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">链接 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">链接 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">链接 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">链接 4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2014 Copyright 文本
+              <a class="grey-text text-lighten-4 right" href="#!">更多链接</a>
+              </div>
+            </div>
+          </footer> -->
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+        function searchToggle(obj, evt){
+            var container = $(obj).closest('.search-wrapper');
+
+            if(!container.hasClass('active')){
+                  container.addClass('active');
+                  evt.preventDefault();
+            }
+            else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+                  container.removeClass('active');
+                  // clear input
+                  container.find('.search-input').val('');
+                  // clear and hide result container when we press close
+                  container.find('.result-container').fadeOut(100, function(){$(this).empty();});
+            }
+        }
+
+        function submitFn(obj, evt){
+            value = $(obj).find('.search-input').val().trim();
+
+            _html = "Yup yup! Your search text sounds like this: ";
+            if(!value.length){
+                _html = "Yup yup! Add some text friend :D";
+            }
+            else{
+                _html += "<b>" + value + "</b>";
+            }
+
+            $(obj).find('.result-container').html('<span>' + _html + '</span>');
+            $(obj).find('.result-container').fadeIn(100);
+
+            evt.preventDefault();
+        }
+        $('#selfCard').sideNav({
+      menuWidth: 300, // Default is 240
+      edge: 'right', // Choose the horizontal origin
+    //   closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+    </script>
+</body>
+</html>
