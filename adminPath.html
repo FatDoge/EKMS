@@ -61,71 +61,178 @@
       </ul>
     </div>
   </div>
-  
-  <div class="layui-body">
-      <br>
-    <!-- 内容主体区域 -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="main-timeline">
-                    <div class="timeline">
-                        <div class="timeline-icon">
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h2 class="title">Web Design</h2>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
-                            </p>
-                            <a href="#" class="read-more">read more</a>
-                        </div>
-                    </div>
 
-                    <div class="timeline">
-                        <div class="timeline-icon">
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <div class="timeline-content right">
-                            <h2 class="title">Web Development</h2>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
-                            </p>
-                            <a href="#" class="read-more">read more</a>
-                        </div>
-                    </div>
+    <div class="layui-body" id='app'>
+        <!-- 内容主体区域 -->
+        <div class="tree">
+            <tree :node="rootNode"></tree>
+        </div>
 
-                    <div class="timeline">
-                        <div class="timeline-icon">
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h2 class="title">Brand Building</h2>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
-                            </p>
-                            <a href="#" class="read-more">read more</a>
-                        </div>
-                    </div>
+        <!-- <h2>JSON：</h2>
+        <textarea style="width:100%; height:20em;">{{ tree_json }}</textarea> -->
 
-                    <div class="timeline">
-                        <div class="timeline-icon">
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <div class="timeline-content right">
-                            <h2 class="title">Responsive Design</h2>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod fringilla nibh, feugiat pretium velit. Integer elit urna, maximus vitae rutrum hendrerit, pretium sed massa.
-                            </p>
-                            <a href="#" class="read-more">read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+        <div class="layui-footer">
+            <!-- 底部固定区域 -->
+            &copy;企业知识库管理系统
         </div>
     </div>
+    <script src="./css/layui/layui.js"></script>
+    <script src="http://cdn.bootcss.com/vue/1.0.17/vue.min.js"></script>
 
-  </div>
+    <script>
+        var TreeNode = Vue.extend({
+            data: function(){
+                return {
+                    show_oprators: false,
+                    is_draged: false,
+                }
+            },
+            name: 'tree-node',
+            props: ['node'],
+            template: `
+        <li draggable="true" @dragstart.stop="handleDragStart($event)" @dragenter="handleDragEnter" @dragleave="handleDragLeave" @dragover.prevent="handleDragOver" @drop.stop="handleDrop($event)" @dragend.prevent="handleDragEnd">
+            <span @mouseenter="showOprators" @mouseleave="hideOprators">
+                <a @click="toggle">{{node.name}}</a>
+                <small v-if="show_oprators">
+                    <a @click="editNode" href="#">编辑名称</a> |<a @click="editLink" href="#">修改链接</a> | <a @click="removeNode" href="#">删除</a> | <a @click="addNode" href="#">增加</a>
+                </small>
+            </span>
+            <ul v-show="node.children.length"><tree-node v-for="node in node.children" :node.sync="node"></tree-node></ul>
+        </li>`,
+            methods:{
+                handleDrop: function(e){
+                    var vm = window.__drop_node__;
+
+                    this.$el.style.backgroundColor = '';
+                    vm.$el.style.backgroundColor = '';
+
+                    var __parent__ = this;
+                    while (__parent__ !== undefined){
+                        if (__parent__ === vm){
+                            return;
+                        }
+                        __parent__ = __parent__.$parent;
+                    }
+
+                    var current_node = vm.node;
+                    vm.$parent.node.children = vm.$parent.node.children.filter(function(node){
+                        return node !== current_node;
+                    });
+                    this.node.children.push(current_node);
+
+                },
+                handleDragEnd: function(){
+                    this.$el.style.backgroundColor = '';
+                },
+                handleDragStart: function(e){
+                    this.show = false;
+                    this.is_draged = true;
+                    window.__drop_node__ = this;
+                    this.$el.style.backgroundColor = '#e0e0e0';
+                },
+                handleDragEnter: function(){ if(!this.is_draged) this.$el.style.backgroundColor = "#9e9e9e"; },
+                handleDragLeave: function(){ if(!this.is_draged) this.$el.style.backgroundColor = ""; },
+                handleDragOver: function(){},
+
+                showOprators: function(){ this.show_oprators = true; },
+                hideOprators: function(){ this.show_oprators = false; },
+
+                addNode: function(){
+                    var that=this;
+                    layui.use('layer',function(){
+                        var layer=layui.layer;
+                        layer.prompt({title: '输入新分类名称',offset: ['40%','40%']}, function(name, index){
+                            layer.close(index);
+                            console.log(name);
+                            if (!!name && !!name.trim()){
+                                that.node.children.push({name: name.trim(), children:[]});
+                            }
+                        });
+                    })
+
+                },
+                removeNode: function(){
+                    var that=this;
+                    layui.use('layer',function(){
+                        var layer=layui.layer;
+                        layer.msg('确认删除该结点及子节点吗？', {
+                            time: 0 //不自动关闭
+                            ,btn: ['确定', '取消']
+                            ,area:['250px','']
+                            ,yes: function(index){
+                                layer.close(index);
+                                var current_node = that.node;
+                                that.$parent.node.children = that.$parent.node.children.filter(function(node){
+                                    return node !== current_node;
+                                });
+                            }
+                        });
+                    })
+                },
+                editLink: function(){
+                    var that=this;
+                    layui.use('layer',function(){
+                        var layer=layui.layer;
+                        layer.prompt({title: '编辑学习路径链接',offset: ['40%','40%'],value:that.node.link}, function(link, index){
+                            layer.close(index);
+                            console.log(link);
+                            if (!!link && !!link.trim()){
+                                that.node.link = link.trim();
+                            }
+                        });
+                    })
+                },
+                editNode: function(){
+                    var that=this;
+                    layui.use('layer',function(){
+                        var layer=layui.layer;
+                        layer.prompt({title: '编辑知识结点名称',offset: ['40%','40%'],value:that.node.name}, function(name, index){
+                            layer.close(index);
+                            console.log(name);
+                            if (!!name && !!name.trim()){
+                                that.node.name = name.trim();
+                            }
+                        });
+                    })
+                },
+
+            }
+        });
+
+        var Tree = Vue.extend({
+            name: 'tree',
+            props: ['node'],
+            components: {
+                'tree-node': TreeNode
+            },
+            template: '<ul><tree-node :node.sync="node"></tree-node><ul>',
+        });
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                rootNode: {
+                    name: 'Web前端',
+                    children: [
+                        {name: '基础', children:[{name: 'HTML+CSS', children:[],link: 'https://bbs.fatdoge.cn'}, {name: 'javascript初级', children:[]}],link: 'https://bbs.fatdoge.cn'},
+                        {name: '进阶', children:[{name: 'Bootstrap', children:[],link: 'https://bbs.fatdoge.cn'}, {name: 'jQuery', children:[],link: 'https://bbs.fatdoge.cn'}],link: 'https://bbs.fatdoge.cn'},
+                        {name: '高级', children:[{name: 'Vue+Vuex+axios', children:[],link: 'https://bbs.fatdoge.cn'}, {name: 'webpack', children:[],link: 'https://bbs.fatdoge.cn'}],link: 'https://bbs.fatdoge.cn'},
+                    ],
+                    link:'https://bbs.fatdoge.cn'
+                }
+            },
+            computed: {
+                tree_json: function(){
+                    return JSON.stringify(this.rootNode);
+                }
+            },
+            components: {
+                'tree': Tree
+            },
+        });
+
+    </script>
   
   <div class="layui-footer">
     <!-- 底部固定区域 -->

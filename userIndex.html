@@ -8,11 +8,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/search-form.css">
+    <link href="./css/userIndex.css">
 </head>
 <body>
         <nav>
                 <div class="nav-wrapper light-blue lighten-1">
-                  <a href="#" class="brand-logo">logo</a>
+                  <a href="#" class="brand-logo"><img src="./images/userLogo.png"></a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#">首页</a></li>
                     <li><a href="#">文档上传</a></li>
@@ -21,7 +22,6 @@
                   </ul>
                 </div>
               </nav>
-
               <ul id="slide-out" class="side-nav">
                     <li><div class="userView">
                       <div class="background">
@@ -37,9 +37,7 @@
                     <li><div class="divider"></div></li>
                     <li><a class="waves-effect" href="#!">账号设置</a></li>
                   </ul>
-                  
-
-	<section class="htmleaf-container">
+	<section>
 		<form onsubmit="submitFn(this, event);">
             <div class="search-wrapper">
                 <div class="input-holder">
@@ -53,32 +51,10 @@
             </div>
         </form>
 	</section>
-    
-    <!-- <footer class="page-footer">
-            <div class="container">
-              <div class="row">
-                <div class="col l6 s12">
-                  <h5 class="white-text">页脚内容</h5>
-                  <p class="grey-text text-lighten-4">你可以用行和列来组织你的页脚内容。</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">链接</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">链接 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">链接 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">链接 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">链接 4</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="footer-copyright">
-              <div class="container">
-              © 2014 Copyright 文本
-              <a class="grey-text text-lighten-4 right" href="#!">更多链接</a>
-              </div>
-            </div>
-          </footer> -->
+<!--<div class="container">-->
+        <!--<div class="chips chips-initial"></div>-->
+        <!--<div class="chips chips-placeholder"></div>-->
+<!--</div>-->
 
     <script src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -122,6 +98,20 @@
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
+        $('.chips').material_chip();
+        $('.chips-initial').material_chip({
+            data: [{
+                tag: '小米',
+            }, {
+                tag: '中兴',
+            }, {
+                tag: '华为',
+            }],
+        });
+        $('.chips-placeholder').material_chip({
+            placeholder: 'Enter a tag',
+            secondaryPlaceholder: '+Tag',
+        });
     </script>
 </body>
 </html>
