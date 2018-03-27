@@ -15,6 +15,26 @@
         <nav>
                 <div class="nav-wrapper teal darken-1">
                   <a href="#" class="brand-logo"><img src="./images/userLogo.png"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons" style="color:white">menu</i></a>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><div class="userView">
+                            <div class="background">
+                                <img src="images/office.jpg">
+                            </div>
+                            <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+                            <a href="#!name"><span class="white-text name">王花花</span></a>
+                            <a href="#!email"><span class="white-text email">jdandturk@sina.com</span></a>
+                        </div></li>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#" onclick="openFileUploadPage()">文档上传</a></li>
+                        <li><a href="#">知识路径</a></li>
+                        <li><div class="divider"></div></li>
+                        <li><a class="waves-effect" href="#!">我的文档</a></li>
+                        <li><a class="waves-effect" href="#!">我的订阅</a></li>
+                        <li><a class="waves-effect" href="#!">我的收藏</a></li>
+                        <li><div class="divider"></div></li>
+                        <li><a class="waves-effect" href="#!">账号设置</a></li>
+                    </ul>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#">首页</a></li>
                     <li><a href="#" onclick="openFileUploadPage()">文档上传</a></li>
@@ -212,7 +232,9 @@ $("#search").mouseleave(function(){
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
-
+$(document).ready(function(){
+    $(".button-collapse").sideNav();
+})
     </script>
 </body>
 </html>
