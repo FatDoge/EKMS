@@ -7,8 +7,9 @@
     <title>企业知识库管理系统</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/search-form.css">
-    <link href="./css/userIndex.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link type="text/css" rel="stylesheet" href="css/userIndex.css"/>
 </head>
 <body>
         <nav>
@@ -37,60 +38,144 @@
                     <li><div class="divider"></div></li>
                     <li><a class="waves-effect" href="#!">账号设置</a></li>
                   </ul>
-	<section>
-		<form onsubmit="submitFn(this, event);">
-            <div class="search-wrapper">
-                <div class="input-holder">
-                    <input type="text" class="search-input" placeholder="Type to search" />
-                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
-                </div>
-                <span class="close" onclick="searchToggle(this, event);"></span>
-                <div class="result-container">
+<!--search-->
+        <div class="container">
 
+            <div class="row">
+            <div class="col l8 offset-l2 s12 offset-s0">
+                <div class="search">
+                    <div class="search-wrapper card">
+                        <input id="search" autocomplete="off"><i class="material-icons" id="search_start">search</i>
+                        <div class="search-results">
+                            <a href="javascript:void(0);" class="drop" data-activates="dropdown"></a>
+                            <ul id="dropdown" class="dropdown-content">
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </form>
-	</section>
-<!--<div class="container">-->
-        <!--<div class="chips chips-initial"></div>-->
-        <!--<div class="chips chips-placeholder"></div>-->
-<!--</div>-->
+        </div>
 
+
+        <!--end-->
+        <!--hot tags-->
+            <div class="row center">
+        <div class="chip">
+            <img src="images/yuna.jpg" alt="Contact Person">
+            热门标签
+        </div>
+            <div class="chip">
+                入职
+                <i class="close material-icons">close</i>
+            </div>
+            <div class="chip">
+                经济
+                <i class="close material-icons">close</i>
+            </div>
+            <div class="chip">
+                计组
+                <i class="close material-icons">close</i>
+            </div>
+            <div class="chip">
+                数电
+                <i class="close material-icons">close</i>
+            </div>
+                <div class="chip">
+                    模电
+                    <i class="close material-icons">close</i>
+                </div>
+                <div class="chip">
+                    报销流程
+                    <i class="close material-icons">close</i>
+                </div>
+            </div>
+        <!--end-->
+            <!--type-->
+            <div class="row">
+                <ul class="collection with-header card col l4 s12">
+                    <li class="collection-header"><h4>文档</h4></li>
+                    <li class="collection-item"><div>策划<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>会议记录<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>财务报表<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>人事档案<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                </ul>
+                <ul class="collection with-header card col l4 s12">
+                    <li class="collection-header"><h4>视频</h4></li>
+                    <li class="collection-item"><div>宣传片<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>视传资料<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>概念视频<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>CG动画<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                </ul>
+                <ul class="collection with-header card col l4 s12">
+                    <li class="collection-header"><h4>音频</h4></li>
+                    <li class="collection-item"><div>发言<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>网站搭建<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>面试录音<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                    <li class="collection-item"><div>声效素材<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+                </ul>
+            </div>
+            <!--end-->
+            <!--card-->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.jpg">
+                            <span class="card-title">示例文档</span>
+                            <a class="btn tooltipped btn-floating halfway-fab waves-effect waves-light red" data-position="top" data-delay="50" data-tooltip="点击收藏"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>示例文档介绍。</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">在线浏览</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.jpg">
+                            <span class="card-title">示例文档</span>
+                            <a class="btn tooltipped btn-floating halfway-fab waves-effect waves-light red" data-position="top" data-delay="50" data-tooltip="点击收藏"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>示例文档介绍。</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">在线浏览</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.jpg">
+                            <span class="card-title">示例文档</span>
+                            <a class="btn tooltipped btn-floating halfway-fab waves-effect waves-light red" data-position="top" data-delay="50" data-tooltip="点击收藏"><i class="material-icons">add</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p>示例文档介绍。</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">在线浏览</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--end-->
+        </div>
     <script src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 	<script type="text/javascript">
-        function searchToggle(obj, evt){
-            var container = $(obj).closest('.search-wrapper');
+$("#search").hover(function(){
+    $("#search").parent().addClass('focused')
+});
+$("#search").mouseleave(function(){
+    $("#search").parent().removeClass('focused')
+})
 
-            if(!container.hasClass('active')){
-                  container.addClass('active');
-                  evt.preventDefault();
-            }
-            else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
-                  container.removeClass('active');
-                  // clear input
-                  container.find('.search-input').val('');
-                  // clear and hide result container when we press close
-                  container.find('.result-container').fadeOut(100, function(){$(this).empty();});
-            }
-        }
-
-        function submitFn(obj, evt){
-            value = $(obj).find('.search-input').val().trim();
-
-            _html = "Yup yup! Your search text sounds like this: ";
-            if(!value.length){
-                _html = "Yup yup! Add some text friend :D";
-            }
-            else{
-                _html += "<b>" + value + "</b>";
-            }
-
-            $(obj).find('.result-container').html('<span>' + _html + '</span>');
-            $(obj).find('.result-container').fadeIn(100);
-
-            evt.preventDefault();
-        }
         $('#selfCard').sideNav({
       menuWidth: 300, // Default is 240
       edge: 'right', // Choose the horizontal origin
@@ -98,20 +183,7 @@
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
-        $('.chips').material_chip();
-        $('.chips-initial').material_chip({
-            data: [{
-                tag: '小米',
-            }, {
-                tag: '中兴',
-            }, {
-                tag: '华为',
-            }],
-        });
-        $('.chips-placeholder').material_chip({
-            placeholder: 'Enter a tag',
-            secondaryPlaceholder: '+Tag',
-        });
+
     </script>
 </body>
 </html>
