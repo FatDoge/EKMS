@@ -1,0 +1,79 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>企业知识库管理系统</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
+</head>
+<body>
+<br><br>
+<div class="container">
+    <div class="row">
+        <form action="#">
+            <div class="file-field input-field">
+                <div class="btn">
+                    <span>文件</span>
+                    <input type="file">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="上传文件">
+                </div>
+            </div>
+        </form>
+        <div class="input-field col s12">
+            <select>
+                <option value="" disabled selected>选择文档类型</option>
+                <option value="1">文档</option>
+                <option value="2">视频</option>
+                <option value="3">音频</option>
+            </select>
+            <label>文档类型</label>
+        </div>
+        <div class="center">
+                <p>
+                    <input name="group1" type="radio" id="test1" class="with-gap"/>
+                    <label for="test1">私有文件</label>
+
+                    <input class="with-gap" name="group1" type="radio" id="test2"  checked/>
+                    <label for="test2">共享文件</label>
+                </p>
+        </div>
+
+        <div class="chips chips-placeholder col s12"></div>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">备注</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="center">
+        <button class="btn waves-effect waves-light" type="submit" name="action">提交
+            <i class="material-icons right">send</i>
+        </button>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="./js/userOperations.js"></script>
+<script src="./css/layui/layui.js"></script>
+<script>
+    $(document).ready(function() {
+    $('select').material_select();
+    });
+    $('.chips-placeholder').material_chip({
+        placeholder: '输入标签并回车',
+        secondaryPlaceholder: '+标签',
+    });
+    $('#textarea1').val('');
+    $('#textarea1').trigger('autoresize');
+</script>
+</body>
+</html>
