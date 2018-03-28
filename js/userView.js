@@ -1,3 +1,4 @@
+//url传参
 function GetRequest() {
     var url = location.search; // 获取 url 中 "?" 符后的字串
     var theRequest = new Object();
@@ -10,6 +11,7 @@ function GetRequest() {
     }
     return theRequest;
 }
+//根据url中参数选择路径
 function getFilePath(fileType){
     var filePath;
     switch (fileType){
@@ -33,9 +35,11 @@ function getFilePath(fileType){
     }
     return filePath;
 }
+//更改iframe路径
 function changeIframe(filePath){
     document.getElementById('myIframe').src=filePath;
 }
+//等待页面元素加载完毕
 $(document).ready(function(){
     changeIframe(getFilePath(GetRequest().type));
 })

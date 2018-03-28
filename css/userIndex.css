@@ -14,3 +14,9 @@ main {
 ::-webkit-scrollbar{
     display:none;
 }
+.card .card-image .card-title {
+    color: #009688!important;
+    background: #ffffff75!important;
+    text-align: center!important;
+    width: 100%!important;
+}
