@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="246ddf76-c56b-4ef7-ac3c-13c8c018815a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/userFileUpload.html" beforeDir="false" afterPath="$PROJECT_DIR$/userFileUpload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/userView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/userView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fileViewer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/userIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/userIndex.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/userIndex.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,41 +22,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="adminPath.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminPath.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4862">
-              <caret line="221" column="48" selection-start-line="221" selection-start-column="48" selection-end-line="221" selection-end-column="48" />
-              <folding>
-                <marker date="1522044317377" expanded="true" signature="3311:3842" ph="..." />
-                <marker date="1522044317377" expanded="true" signature="3384:3705" ph="..." />
-                <marker date="1522044317377" expanded="true" signature="3482:3685" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userIndex.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="89" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
+            <state relative-caret-position="1342">
+              <caret line="208" column="39" lean-forward="true" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
               <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9788#9794#0" expanded="true" />
-                <element signature="e#9794#9800#0" expanded="true" />
-                <element signature="e#9804#9810#0" expanded="true" />
-                <element signature="e#9819#9825#0" expanded="true" />
+                <element signature="e#11328#11334#0" expanded="true" />
+                <element signature="e#11338#11344#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userFileUpload.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userFileUpload.html">
+      <file leaf-file-name="userView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+            <state relative-caret-position="1056">
+              <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/userView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pptViewer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pptViewer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileViewer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/fileViewer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/fileView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="17" lean-forward="true" selection-end-line="49" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userView.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/userView.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -69,48 +104,16 @@
         <entry file="file://$PROJECT_DIR$/adminTypes.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="205" column="138" selection-start-line="205" selection-start-column="138" selection-end-line="205" selection-end-column="138" />
+              <caret line="205" column="80" lean-forward="true" selection-start-line="205" selection-start-column="80" selection-end-line="205" selection-end-column="80" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.min.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="userIndex.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/userIndex.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminPath.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/adminPath.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3432">
-              <caret line="156" column="36" selection-start-line="156" selection-start-column="36" selection-end-line="156" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminJudge.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminJudge.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="143" column="11" lean-forward="true" selection-start-line="137" selection-start-column="8" selection-end-line="143" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminIndex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminIndex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -147,10 +150,14 @@
         <option value="$PROJECT_DIR$/adminPath.html" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/adminTypes.html" />
-        <option value="$PROJECT_DIR$/css/userIndex.css" />
         <option value="$PROJECT_DIR$/js/userOperations.js" />
         <option value="$PROJECT_DIR$/userFileUpload.html" />
+        <option value="$PROJECT_DIR$/css/userIndex.css" />
+        <option value="$PROJECT_DIR$/css/userView.css" />
+        <option value="$PROJECT_DIR$/web/fileViewer.html" />
         <option value="$PROJECT_DIR$/userIndex.html" />
+        <option value="$PROJECT_DIR$/userView.html" />
+        <option value="$PROJECT_DIR$/js/userView.js" />
       </list>
     </option>
   </component>
@@ -171,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,11 +201,15 @@
               <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="知识库管理系统" type="b2602c69:ProjectViewProjectNode" />
+              <item name="知识库管理系统" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,26 +239,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.userFileUpload.html">
-    <configuration name="adminIndex.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/adminIndex.html" />
+  <component name="RunManager" selected="JavaScript Debug.pptViewer.html">
     <configuration name="adminTypes.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/adminTypes.html" />
-    <configuration name="userFileUpload.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userFileUpload.html" />
+    <configuration name="fileViewer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/fileViewer.html" />
+    <configuration name="pptViewer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/pptViewer.html" />
     <configuration name="userIndex.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userIndex.html" />
-    <configuration name="videoViewer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/videoViewer.html" />
+    <configuration name="userView.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userView.html" />
     <list>
-      <item itemvalue="JavaScript Debug.videoViewer.html" />
       <item itemvalue="JavaScript Debug.adminTypes.html" />
-      <item itemvalue="JavaScript Debug.adminIndex.html" />
       <item itemvalue="JavaScript Debug.userIndex.html" />
-      <item itemvalue="JavaScript Debug.userFileUpload.html" />
+      <item itemvalue="JavaScript Debug.userView.html" />
+      <item itemvalue="JavaScript Debug.fileViewer.html" />
+      <item itemvalue="JavaScript Debug.pptViewer.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.userFileUpload.html" />
+        <item itemvalue="JavaScript Debug.pptViewer.html" />
         <item itemvalue="JavaScript Debug.adminTypes.html" />
+        <item itemvalue="JavaScript Debug.fileViewer.html" />
         <item itemvalue="JavaScript Debug.userIndex.html" />
-        <item itemvalue="JavaScript Debug.adminIndex.html" />
-        <item itemvalue="JavaScript Debug.videoViewer.html" />
+        <item itemvalue="JavaScript Debug.userView.html" />
       </list>
     </recent_temporary>
   </component>
@@ -276,18 +288,18 @@
       <workItem from="1522042212130" duration="4736000" />
       <workItem from="1522050159755" duration="1391000" />
       <workItem from="1522132147042" duration="16000" />
-      <workItem from="1522132348901" duration="16577000" />
+      <workItem from="1522132348901" duration="16953000" />
+      <workItem from="1522215061467" duration="5747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47999000" />
+    <option name="totallyTimeSpent" value="54122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1830161" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888727" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -298,10 +310,10 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984127" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -313,18 +325,86 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/adminPath.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4862">
+          <caret line="221" column="48" selection-start-line="221" selection-start-column="48" selection-end-line="221" selection-end-column="48" />
+          <folding>
+            <marker date="1522044317377" expanded="true" signature="3311:3842" ph="..." />
+            <marker date="1522044317377" expanded="true" signature="3384:3705" ph="..." />
+            <marker date="1522044317377" expanded="true" signature="3482:3685" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userFileUpload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/userOperations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminTypes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4510">
+          <caret line="205" column="138" selection-start-line="205" selection-start-column="138" selection-end-line="205" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/userIndex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/adminPath.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3432">
+          <caret line="156" column="36" selection-start-line="156" selection-start-column="36" selection-end-line="156" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminJudge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3146">
+          <caret line="143" column="11" lean-forward="true" selection-start-line="137" selection-start-column="8" selection-end-line="143" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11328#11334#0" expanded="true" />
+            <element signature="e#11338#11344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
           <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminIndex.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/adminIndex.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/adminTypes.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -339,9 +419,6 @@
           <caret line="42" column="39" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="39" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forgot-password.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/viewer.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -364,21 +441,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminIndex.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/adminIndex.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/adminTypes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2134">
           <caret line="97" column="62" lean-forward="true" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forgot-password.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/adminJudge.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -401,12 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adminIndex.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/adminIndex.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/adminTypes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3190">
@@ -421,21 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -449,19 +496,6 @@
           <caret line="18" column="124" selection-start-line="18" selection-start-column="124" selection-end-line="18" selection-end-column="124" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forgot-password.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/fileView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/adminIndex.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -491,10 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/viewer.js.map">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/videoViewer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -508,9 +538,6 @@
           <caret line="119" column="28" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/pdf.worker.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/adminTypes.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,27 +580,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTypes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="205" column="138" selection-start-line="205" selection-start-column="138" selection-end-line="205" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/userIndex.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adminJudge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="3146">
           <caret line="143" column="11" lean-forward="true" selection-start-line="137" selection-start-column="8" selection-end-line="143" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userFileUpload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="42" column="14" lean-forward="true" selection-end-line="78" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -584,24 +601,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userFileUpload.html">
+    <entry file="file://$PROJECT_DIR$/css/userIndex.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/userView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adminTypes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="205" column="80" lean-forward="true" selection-start-line="205" selection-start-column="80" selection-end-line="205" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fileViewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fileView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="17" lean-forward="true" selection-end-line="49" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/userIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="89" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
+        <state relative-caret-position="1342">
+          <caret line="208" column="39" lean-forward="true" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9788#9794#0" expanded="true" />
-            <element signature="e#9794#9800#0" expanded="true" />
-            <element signature="e#9804#9810#0" expanded="true" />
-            <element signature="e#9819#9825#0" expanded="true" />
+            <element signature="e#11328#11334#0" expanded="true" />
+            <element signature="e#11338#11344#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pptViewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/userView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
