@@ -14,3 +14,23 @@ iframe{
     width: 100%;
     height: 100%;
 }
+.v .vlist .vcard .vimg {
+    margin-left: .7525rem!important;
+}
+.v .power {
+    display: none!important;
+}
+.v .vbtn {
+    color: #ffffff!important;
+    border: 1px solid #009688!important;
+    border-radius: 0!important;
+    background: #009688!important;
+}
+.v .vlist .vcard section .vfooter .vat {
+    color: #009688!important;
+}
+.v .vlist .vcard .vhead .vsys {
+    background: #f44336!important;
+    color: #ffffff!important;
+    border-radius: 0!important;
+}

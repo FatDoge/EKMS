@@ -30,6 +30,9 @@ function getFilePath(fileType){
         case 'audio':
             filePath='./web/musicViewer.html';
             break;
+        case 'excel':
+            filePath='./web/excelViewer.html';
+            break;
         default:
             filePath='';
             break;
