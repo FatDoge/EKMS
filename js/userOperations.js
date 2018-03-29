@@ -30,5 +30,10 @@ function openFileUploadPage(){
 function userUploadFile(){
     setTimeout(function(){
         Materialize.toast('上传成功', 2000)
-    },2000);
+    },1000);
+}
+//用户搜索跳转
+function userSearch(){
+    var qw=document.getElementById('search').value;
+    qw.trim()?window.location=`./userSearch.html?qw=${qw}`:Materialize.toast('请输入关键字', 2000);
 }
