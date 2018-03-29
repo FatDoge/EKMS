@@ -31,7 +31,8 @@ function getFilePath(fileType){
             filePath='./web/musicViewer.html';
             break;
         default:
-            return false;
+            filePath='';
+            break;
     }
     return filePath;
 }
