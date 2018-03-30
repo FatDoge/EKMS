@@ -60,3 +60,57 @@ function userDocTips(type){
             return false;
     }
 }
+//用户管理文档时预览
+function userView(type){
+    const wordViewer='./web/fileViewer.html';
+    const pdfViewer='./web/viewer.html';
+    const excelViewer='./web/excelViewer.html';
+    const pptViewer='./web/pptViewer.html';
+    const videoViewer='./web/videoViewer.html';
+    const musicViewer='./web/musicViewer.html';
+    var temp;
+    switch (type){
+        case 'word':
+            temp=wordViewer;
+            break;
+        case 'pdf':
+            temp=pdfViewer;
+            break;
+        case 'excel':
+            temp=excelViewer;
+            break;
+        case 'ppt':
+            temp=pptViewer;
+            break;
+        case 'flv':
+            temp=videoViewer;
+            break;
+        case 'mp3':
+            temp=musicViewer;
+            break;
+        default:
+            return false;
+    }
+    layui.use('layer',function(){
+        var layer=layui.layer;
+        var index = layer.open({
+            type: 2,
+            content: temp,
+            title: '知识预览',
+            area:['400px','150px;'],
+            maxmin: false
+        });
+        if(temp!=musicViewer)
+            layer.full(index);
+    })
+
+}
+//用户删除文档
+function userDelete(elem){
+    console.log(elem.parentElement.parentElement)
+    setTimeout(function(){
+        elem.parentElement.parentElement.parentElement.remove();
+        Materialize.toast('成功删除',2000)
+    },1000)
+
+}

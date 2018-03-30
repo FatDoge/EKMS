@@ -61,82 +61,9 @@
     <li><a class="waves-effect" href="./userAccount.html">账号设置</a></li>
 </ul>
 <br><br>
-
+<main>
 <br>
 
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col s12 m12">-->
-<!--<div class="card">-->
-<!--<div class="card-content black-text">-->
-<!--<span class="card-title">示例文档.pdf</span>-->
-<!--<p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>-->
-<!--</div>-->
-<!--<div class="card-image">-->
-<!--<a class="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="top" data-delay="50" data-tooltip="点击收藏" onclick="collectKnowledge()"><i class="material-icons">add</i></a>-->
-<!--</div>-->
-<!--<div class="card-action">-->
-<!--<a href="./userView.html?type=pdf" class="teal-text lighten-1" target="_blank">在线浏览</a>-->
-<!--<div class="chip">-->
-
-<!--<img src="images/yuna.jpg" alt="Contact Person">-->
-<!--<a href="#!" class="tooltipped" data-position="top" data-delay="50" data-tooltip="点击关注" onclick="followUser()">张三</a>-->
-<!--</div>-->
-<!--<div class="chip">-->
-<!--<a href="#!">示例</a>-->
-<!--<i class="close material-icons">close</i>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col s12 m12">-->
-<!--<div class="card">-->
-<!--<div class="card-content black-text">-->
-<!--<span class="card-title">示例视频.flv</span>-->
-<!--<p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>-->
-<!--</div>-->
-<!--<div class="card-image">-->
-<!--<a class="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="top" data-delay="50" data-tooltip="点击收藏" onclick="collectKnowledge()"><i class="material-icons">add</i></a>-->
-<!--</div>-->
-<!--<div class="card-action">-->
-<!--<a href="./userView.html?type=pdf" class="teal-text lighten-1" target="_blank">在线浏览</a>-->
-<!--<div class="chip">-->
-
-<!--<img src="images/yuna.jpg" alt="Contact Person">-->
-<!--<a href="#!" class="tooltipped tear-text" data-position="top" data-delay="50" data-tooltip="点击关注" onclick="followUser()">李四</a>-->
-<!--</div>-->
-<!--<div class="chip">-->
-<!--<a href="#!" class="tear-text">示例</a>-->
-<!--<i class="close material-icons">close</i>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div><div class="col s12 m12">-->
-<!--<div class="card">-->
-<!--<div class="card-content black-text">-->
-<!--<span class="card-title">示例文档.xlsx</span>-->
-<!--<p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>-->
-<!--</div>-->
-<!--<div class="card-image">-->
-<!--<a class="btn-floating halfway-fab waves-effect waves-light red tooltipped" data-position="top" data-delay="50" data-tooltip="点击收藏" onclick="collectKnowledge()"><i class="material-icons">add</i></a>-->
-<!--</div>-->
-<!--<div class="card-action">-->
-<!--<a href="./userView.html?type=pdf" class="teal-text lighten-1" target="_blank">在线浏览</a>-->
-<!--<div class="chip">-->
-
-<!--<img src="images/yuna.jpg" alt="Contact Person">-->
-<!--<a href="#!" class="tooltipped" data-position="top" data-delay="50" data-tooltip="点击关注" onclick="followUser()">王五</a>-->
-<!--</div>-->
-<!--<div class="chip">-->
-<!--<a href="#!">示例</a>-->
-<!--<i class="close material-icons">close</i>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
 <br>
 <!--footer-->
 <div class="container">
@@ -157,7 +84,8 @@
                     <div class="card-image">
                         <img src="images/fileType/word.png">
                         <span class="card-title">示例文档.doc</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red left tooltipped" data-position="bottom" data-delay="50" data-tooltip="预览" onclick="userView('word')"><i class="material-icons">search</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal right tooltipped" data-position="bottom" data-delay="50" data-tooltip="删除" onclick="userDelete(this)"><i class="material-icons">delete</i></a>
                     </div>
                     <div class="card-content">
                         <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
@@ -170,7 +98,8 @@
                     <div class="card-image">
                         <img src="images/fileType/pdf.png">
                         <span class="card-title">示例文档.pdf</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red left tooltipped" data-position="bottom" data-delay="50" data-tooltip="预览" onclick="userView('pdf')"><i class="material-icons">search</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal right tooltipped" data-position="bottom" data-delay="50" data-tooltip="删除" onclick="userDelete(this)"><i class="material-icons">delete</i></a>
                     </div>
                     <div class="card-content">
                         <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
@@ -183,7 +112,8 @@
                     <div class="card-image">
                         <img src="images/fileType/video.png">
                         <span class="card-title">示例文档.flv</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red left tooltipped" data-position="bottom" data-delay="50" data-tooltip="预览" onclick="userView('flv')"><i class="material-icons">search</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal right tooltipped" data-position="bottom" data-delay="50" data-tooltip="删除" onclick="userDelete(this)"><i class="material-icons">delete</i></a>
                     </div>
                     <div class="card-content">
                         <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
@@ -196,9 +126,10 @@
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="images/fileType/jpg.png">
-                        <span class="card-title">示例文档.jpg</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <img src="images/fileType/word.png">
+                        <span class="card-title">演示文档.docx</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red left tooltipped" data-position="bottom" data-delay="50" data-tooltip="预览" onclick="userView('word')"><i class="material-icons">search</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal right tooltipped" data-position="bottom" data-delay="50" data-tooltip="删除" onclick="userDelete(this)"><i class="material-icons">delete</i></a>
                     </div>
                     <div class="card-content">
                         <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
@@ -211,7 +142,8 @@
                     <div class="card-image">
                         <img src="images/fileType/excel.png">
                         <span class="card-title">示例文档.xlsx</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red left tooltipped" data-position="bottom" data-delay="50" data-tooltip="预览" onclick="userView('excel')"><i class="material-icons">search</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal right tooltipped" data-position="bottom" data-delay="50" data-tooltip="删除" onclick="userDelete(this)"><i class="material-icons">delete</i></a>
                     </div>
                     <div class="card-content">
                         <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
@@ -227,7 +159,8 @@
                     <div class="card-image">
                         <img src="images/fileType/mp3.png">
                         <span class="card-title">示例文档.mp3</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red left tooltipped" data-position="bottom" data-delay="50" data-tooltip="预览" onclick="userView('mp3')"><i class="material-icons">search</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal right tooltipped" data-position="bottom" data-delay="50" data-tooltip="删除" onclick="userDelete(this)"><i class="material-icons">delete</i></a>
                     </div>
                     <div class="card-content">
                         <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
@@ -242,7 +175,8 @@
                     <div class="card-image">
                         <img src="images/fileType/video.png">
                         <span class="card-title">嘿嘿嘿.flv</span>
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red left tooltipped" data-position="bottom" data-delay="50" data-tooltip="预览" onclick="userView('flv')" disabled><i class="material-icons">search</i></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal right tooltipped" data-position="bottom" data-delay="50" data-tooltip="删除" onclick="userDelete(this)"><i class="material-icons">delete</i></a>
                     </div>
                     <div class="card-content">
                         <p>我是一个很简单的卡片。我很擅长于包含少量的信息。我很方便，因为我只需要一个小标记就可以有效地使用。</p>
@@ -253,6 +187,7 @@
     </div>
 </div>
 <br>
+</main>
 <footer class="page-footer teal darken-1">
     <div class="container">
         <div class="row">
@@ -280,8 +215,8 @@
 <!--end-->
 <script src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="./js/userOperations.js"></script>
 <script src="./css/layui/layui.js"></script>
+<script src="./js/userOperations.js"></script>
 <script>
     $("#search").hover(function(){
         $("#search").parent().addClass('focused')
@@ -301,5 +236,16 @@
         $(".button-collapse").sideNav();
     });
 </script>
+<style>
+    body {
+        display: flex!important;
+        min-height: 100vh!important;
+        flex-direction: column!important;
+    }
+
+    main {
+        flex: 1 0 auto!important;
+    }
+</style>
 </body>
 </html>
