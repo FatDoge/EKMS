@@ -114,3 +114,11 @@ function userDelete(elem){
     },1000)
 
 }
+//用户取消收藏
+function userCancelCollect(elem){
+    console.log(elem.parentElement.parentElement)
+    setTimeout(function(){
+        elem.parentElement.parentElement.parentElement.remove();
+        Materialize.toast('已取消收藏',2000)
+    },1000)
+}
