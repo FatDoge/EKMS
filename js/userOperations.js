@@ -122,3 +122,11 @@ function userCancelCollect(elem){
         Materialize.toast('已取消收藏',2000)
     },1000)
 }
+//用户取消订阅
+function userUnsubscribe(elem){
+    console.log(elem.parentElement.parentElement)
+    setTimeout(function(){
+        elem.parentElement.parentElement.parentElement.remove();
+        Materialize.toast('已取消订阅',2000)
+    },1000)
+}

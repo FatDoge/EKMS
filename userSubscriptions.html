@@ -1,0 +1,279 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>企业知识库管理系统</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/userView.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.min.css"/>
+</head>
+<body>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper teal darken-1">
+            <a href="./userIndex.html" class="brand-logo"><img src="./images/userLogo.png" style="width:60px;"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons" style="color:white">menu</i></a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="./userIndex.html">首页</a></li>
+                <li><a href="#" onclick="openFileUploadPage()">文档上传</a></li>
+                <li><a href="./userRoad.html">知识路径</a></li>
+                <li><a href="#" data-activates="slide-out" id="selfCard"><i class="material-icons">menu</i></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<ul class="side-nav" id="mobile-demo">
+    <li><div class="userView">
+        <div class="background">
+            <img src="images/office.jpg">
+        </div>
+        <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+        <a href="#!name"><span class="white-text name">王花花</span></a>
+        <a href="#!email"><span class="white-text email">jdandturk@sina.com</span></a>
+    </div></li>
+    <li><a href="./userIndex.html">首页</a></li>
+    <li><a href="#" onclick="openFileUploadPage()">文档上传</a></li>
+    <li><a href="./userRoad.html">知识路径</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="./userDocuments.html">我的文档</a></li>
+    <li><a class="waves-effect" href="./userSubscriptions.html">我的订阅</a></li>
+    <li><a class="waves-effect" href="./userCollections.html">我的收藏</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="./userAccount.html">账号设置</a></li>
+</ul>
+<ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+        <div class="background">
+            <img src="images/office.jpg">
+        </div>
+        <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+        <a href="#!name"><span class="white-text name">王花花</span></a>
+        <a href="#!email"><span class="white-text email">jdandturk@sina.com</span></a>
+    </div></li>
+    <li><a class="waves-effect" href="./userDocuments.html">我的文档</a></li>
+    <li><a class="waves-effect" href="./userSubscriptions.html">我的订阅</a></li>
+    <li><a class="waves-effect" href="./userCollections.html">我的收藏</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="./userAccount.html">账号设置</a></li>
+</ul>
+<br><br>
+<main>
+    <br>
+
+    <br>
+<!--人物卡片-->
+    <div class="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col m6 s12 l3">
+                    <div class="our-team card">
+                        <div class="pic">
+                            <img src="images/1.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Angelia</h3>
+                            <Span class="post">Web Developer</Span>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#" class="waves-effect waves-light btn" onclick="userUnsubscribe(this)">取消关注</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col m6 s12 l3">
+                    <div class="our-team card">
+                        <div class="pic">
+                            <img src="images/2.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Kristiana</h3>
+                            <Span class="post">Web Designer</Span>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#" class="waves-effect waves-light btn" onclick="userUnsubscribe(this)">取消关注</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col m6 s12 l3">
+                    <div class="our-team card">
+                        <div class="pic">
+                            <img src="images/3.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Alice</h3>
+                            <Span class="post">Web Developer</Span>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#" class="waves-effect waves-light btn" onclick="userUnsubscribe(this)">取消关注</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col m6 s12 l3">
+                    <div class="our-team card">
+                        <div class="pic">
+                            <img src="images/4.jpg">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Caroline</h3>
+                            <Span class="post">Web Designer</Span>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#" class="waves-effect waves-light btn" onclick="userUnsubscribe(this)">取消关注</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+</main>
+<footer class="page-footer teal darken-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">关于我们</h5>
+                <p class="grey-text text-lighten-4">杭州电子科技大学超威蓝猫提供技术支持。</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">相关链接</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://bbs.fatdoge.cn" target="_blank">知识社区</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://status.fatdoge.cn" target="_blank">状态监控</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://fatdoge.cn" target="_blank">企业博客</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            &copy;&nbsp;2018&nbsp;Copyright&nbsp企业知识库管理系统
+            <a class="grey-text text-lighten-4 right" href="https://github.com/fatdoge/EKMS" target="_blank">Github</a>
+        </div>
+    </div>
+</footer>
+<!--end-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="./css/layui/layui.js"></script>
+<script src="./js/userOperations.js"></script>
+<script>
+    $("#search").hover(function(){
+        $("#search").parent().addClass('focused')
+    });
+    $("#search").mouseleave(function(){
+        $("#search").parent().removeClass('focused')
+    })
+    $('#selfCard').sideNav({
+            menuWidth: 300, // Default is 240
+            edge: 'right', // Choose the horizontal origin
+            //   closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        }
+    );
+    $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        $(".button-collapse").sideNav();
+    });
+</script>
+<style>
+    body {
+        display: flex!important;
+        min-height: 100vh!important;
+        flex-direction: column!important;
+    }
+
+    main {
+        flex: 1 0 auto!important;
+    }
+    .demo{padding: 2em 0;}
+    .our-team{
+        padding: 30px 0 40px;
+        background: #f7f5ec;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+    .our-team .pic{
+        display: inline-block;
+        width: 130px;
+        height: 130px;
+        margin-bottom: 50px;
+        z-index: 1;
+        position: relative;
+    }
+    .our-team .pic:before{
+        content: "";
+        width: 100%;
+        height: 0;
+        border-radius: 50%;
+        background: #009688;
+        position: absolute;
+        bottom: 135%;
+        right: 0;
+        left: 0;
+        opacity: 0.2;
+        transform: scale(3);
+        transition: all 0.3s linear 0s;
+    }
+    .our-team:hover .pic:before{ height: 100%; }
+    .our-team .pic:after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: #009688;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .our-team .pic img{
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+    .our-team:hover .pic img{
+        box-shadow: 0 0 0 14px #f7f5ec;
+        transform: scale(0.7);
+    }
+    .our-team .team-content{ margin-bottom: 30px; }
+    .our-team .title{
+        font-size: 22px;
+        font-weight: 700;
+        color: #4e5052;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+    }
+    .our-team .post{
+        display: block;
+        font-size: 15px;
+        color: #4e5052;
+        text-transform:capitalize;
+    }
+    .our-team .social{
+        position: absolute;
+        bottom: -100px;
+        width: 100%;
+        transition: all 0.5s ease 0s;
+    }
+    .our-team .social li{ display: inline-block; }
+    .our-team:hover .social{ bottom: 0; }
+    .our-team .social li a{
+        transition: all 0.3s ease 0s;
+    }
+    @media only screen and (max-width: 990px){
+        .our-team{ margin-bottom: 30px; }
+    }
+</style>
+</body>
+</html>
