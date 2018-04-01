@@ -130,3 +130,28 @@ function userUnsubscribe(elem){
         Materialize.toast('已取消订阅',2000)
     },1000)
 }
+//用户长按打开‘购物车’
+var timeStart,timeEnd,time;//申明全局变量
+
+function getTimeNow()//获取此刻时间
+{
+    var now=new Date();
+    return now.getTime();
+}
+function holdDown()//鼠标按下时触发
+{
+    timeStart=getTimeNow();//获取鼠标按下时的时间
+    time=setInterval(function()//setInterval会每100毫秒执行一次
+    {
+        timeEnd=getTimeNow();//也就是每100毫秒获取一次时间
+        if(timeEnd-timeStart>1000)//如果此时检测到的时间与第一次获取的时间差有1000毫秒
+        {
+            clearInterval(time);//便不再继续重复此函数 （clearInterval取消周期性执行）
+            console.log("长按");//并弹出代码
+        }
+    },100);
+}
+function holdUp()
+{
+    clearInterval(time);//如果按下时间不到1000毫秒便弹起，
+}

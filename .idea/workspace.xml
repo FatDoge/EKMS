@@ -4,8 +4,8 @@
     <list default="true" id="246ddf76-c56b-4ef7-ac3c-13c8c018815a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/userOperations.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/userOperations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userDocuments.html" beforeDir="false" afterPath="$PROJECT_DIR$/userDocuments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userSubscriptions.html" beforeDir="false" afterPath="$PROJECT_DIR$/userSubscriptions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userView.html" beforeDir="false" afterPath="$PROJECT_DIR$/userView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fileViewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/fileViewer.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,17 +22,44 @@
       <file leaf-file-name="userDocuments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userDocuments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="124" column="40" lean-forward="true" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
+            <state relative-caret-position="2728">
+              <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userSubscriptions.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="userSubscriptions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userSubscriptions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+            <state relative-caret-position="22">
+              <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userView.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/userView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userView.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/userView.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileViewer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/fileViewer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -40,8 +67,8 @@
       <file leaf-file-name="userCollections.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userCollections.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="147" column="17" lean-forward="true" selection-end-line="200" selection-end-column="7" />
+            <state relative-caret-position="3014">
+              <caret line="147" column="17" selection-end-line="200" selection-end-column="7" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -49,20 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="userOperations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/userOperations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -72,15 +90,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="858">
               <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminTypes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adminTypes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4510">
-              <caret line="205" column="80" selection-start-line="205" selection-start-column="80" selection-end-line="205" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -142,18 +151,18 @@
         <option value="$PROJECT_DIR$/css/userIndex.css" />
         <option value="$PROJECT_DIR$/web/excelViewer.html" />
         <option value="$PROJECT_DIR$/js/userView.js" />
-        <option value="$PROJECT_DIR$/css/userView.css" />
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/userAccount.html" />
         <option value="$PROJECT_DIR$/userIndex.html" />
         <option value="$PROJECT_DIR$/userSearch.html" />
         <option value="$PROJECT_DIR$/userRoad.html" />
-        <option value="$PROJECT_DIR$/userView.html" />
-        <option value="$PROJECT_DIR$/web/fileViewer.html" />
         <option value="$PROJECT_DIR$/userCollections.html" />
         <option value="$PROJECT_DIR$/userDocuments.html" />
-        <option value="$PROJECT_DIR$/js/userOperations.js" />
         <option value="$PROJECT_DIR$/userSubscriptions.html" />
+        <option value="$PROJECT_DIR$/css/userView.css" />
+        <option value="$PROJECT_DIR$/web/fileViewer.html" />
+        <option value="$PROJECT_DIR$/userView.html" />
+        <option value="$PROJECT_DIR$/js/userOperations.js" />
       </list>
     </option>
   </component>
@@ -174,6 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,26 +250,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.userSubscriptions.html">
+  <component name="RunManager" selected="JavaScript Debug.userView.html">
     <configuration name="fileViewer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/web/fileViewer.html" />
-    <configuration name="userAccount.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userAccount.html" />
     <configuration name="userCollections.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userCollections.html" />
     <configuration name="userDocuments.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userDocuments.html" />
     <configuration name="userSubscriptions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userSubscriptions.html" />
+    <configuration name="userView.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/知识库管理系统/userView.html" />
     <list>
-      <item itemvalue="JavaScript Debug.userAccount.html" />
       <item itemvalue="JavaScript Debug.userDocuments.html" />
       <item itemvalue="JavaScript Debug.fileViewer.html" />
       <item itemvalue="JavaScript Debug.userCollections.html" />
       <item itemvalue="JavaScript Debug.userSubscriptions.html" />
+      <item itemvalue="JavaScript Debug.userView.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.userView.html" />
         <item itemvalue="JavaScript Debug.userSubscriptions.html" />
         <item itemvalue="JavaScript Debug.userCollections.html" />
         <item itemvalue="JavaScript Debug.userDocuments.html" />
         <item itemvalue="JavaScript Debug.fileViewer.html" />
-        <item itemvalue="JavaScript Debug.userAccount.html" />
       </list>
     </recent_temporary>
   </component>
@@ -299,11 +308,13 @@
       <workItem from="1522394995347" duration="2593000" />
       <workItem from="1522398880161" duration="6202000" />
       <workItem from="1522426395451" duration="1995000" />
+      <workItem from="1522488108763" duration="508000" />
+      <workItem from="1522593289578" duration="3130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89993000" />
+    <option name="totallyTimeSpent" value="93631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -371,10 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -575,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/userView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -593,17 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -618,10 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="27" selection-end-line="230" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,10 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1276">
           <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/fileViewer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/userView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -687,8 +661,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/userCollections.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="147" column="17" lean-forward="true" selection-end-line="200" selection-end-column="7" />
+        <state relative-caret-position="3014">
+          <caret line="147" column="17" selection-end-line="200" selection-end-column="7" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -697,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/userDocuments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="124" column="40" lean-forward="true" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
+        <state relative-caret-position="2728">
+          <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -709,17 +683,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/userOperations.js">
+    <entry file="file://$PROJECT_DIR$/userSubscriptions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        <state relative-caret-position="22">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userSubscriptions.html">
+    <entry file="file://$PROJECT_DIR$/css/userView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        <state relative-caret-position="447">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fileViewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/userOperations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
         </state>
       </provider>
     </entry>
