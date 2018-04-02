@@ -153,6 +153,9 @@ function getFileUrl(type){
         case 'mp3':
             return rootUrl+'musicCase.mp3';
             break;
+        case 'rar':
+            return rootUrl+'test.rar';
+            break;
         default:
             return false;
     }
@@ -173,5 +176,10 @@ function userCart(type){
     if(!localStorage.getItem('userCart'))
 console.log('添加到storage',type)
     localStorage.setItem('userCart', type);
-
+}
+//用户批量下载
+function userDownloadFiles(elem){
+    Materialize.toast('开始下载',1000);
+    console.log(elem)
+    elem.href=getFileUrl('rar');
 }

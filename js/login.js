@@ -23,9 +23,11 @@ function login(){
     var email=$("#email").val();
     var password=$("#password").val();
     if(isEmail(email)){
-        var token=$.md5(email+password);
-        console.log('token:',token);
-        loginCode(email,token);
+        // var token=$.md5(email+password);
+        // console.log('token:',token);
+        // loginCode(email,token);
+    //以上为真实登陆，以下为演示数据
+        (email=='704274491@qq.com')?window.location='./userIndex.html':window.location='./adminIndex.html';
     }else{
         msg('用户名格式错误!');
     }
