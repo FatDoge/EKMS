@@ -94,7 +94,7 @@
                 </div>
                 <div class="info-card-item">
                  <div class="info-card-title">EMAIL</div>
-                 <input type="text" value="704274491@qq.com" class="info-card-value">
+                 <input type="text" value="7712316435@qq.com" class="info-card-value">
                 </div>
                 <div class="info-card-item">
                     <div class="info-card-title">SET PASSWORD</div>
@@ -107,8 +107,8 @@
                </div>
                <!-- 底层保存操作选项 -->
                <div class="info-operations">
-                 <a href="#">Cancel</a>
-                 <a href="#">Save</a>
+                 <a href="#" onclick="saveAdminInfo('取消保存')">Cancel</a>
+                 <a href="#" onclick="saveAdminInfo('保存成功')">Save</a>
                </div>
              </div>
            </div>
@@ -151,6 +151,12 @@ layui.use('element', function(){
   var element = layui.element;
   
 });
+function saveAdminInfo(info){
+    layui.use('layer',function(){
+        var layer=layui.layer;
+        layer.msg(info)
+    })
+}
 </script>
 </body>
 </html>

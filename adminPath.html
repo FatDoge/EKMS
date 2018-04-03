@@ -128,7 +128,7 @@
                     var that=this;
                     layui.use('layer',function(){
                         var layer=layui.layer;
-                        layer.prompt({title: '输入新分类名称',offset: ['40%','40%']}, function(name, index){
+                        layer.prompt({title: '输入新路径点名称',offset: ['40%','40%']}, function(name, index){
                             layer.close(index);
                             console.log(name);
                             if (!!name && !!name.trim()){
