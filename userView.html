@@ -149,11 +149,12 @@
     </div>
 </div>
 
-<div class="fixed-action-btn horizontal">
+<div class="fixed-action-btn">
     <a class="btn-floating btn-large red">
         <i class="large material-icons">menu</i>
     </a>
     <ul>
+        <li><a class="btn-floating pink tooltipped" onclick="userAddToCart()" data-position="top" data-delay="50" data-tooltip="添加到下载列表"><i class="material-icons">add</i></a></li>
         <li><a class="btn-floating blue darken-1 tooltipped cart-collapse" data-activates="cart-out" onclick="userCart(GetRequest().type)" data-position="top" data-delay="50" data-tooltip="打开下载列表"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="btn-floating orange tooltipped" onclick="userDownload(this,GetRequest().type)" download="" data-position="top" data-delay="50" data-tooltip="下载"><i class="material-icons">file_download</i></a></li>
     </ul>
